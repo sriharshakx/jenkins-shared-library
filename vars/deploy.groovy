@@ -1,4 +1,4 @@
-def call() {
+def call(body) {
     echo "Start Deploy"
     echo "Deployed"
     currentBuild.result = 'SUCCESS' //FAILURE to fail
