@@ -1,4 +1,4 @@
-def call(body) {
+def deploy() {
     echo "Start Deploy"
 
     new Deployer(script:this).run()
