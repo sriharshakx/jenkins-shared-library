@@ -1,4 +1,4 @@
-def call(int buildNumber) {
+def call(body) {
   if (buildNumber % 2 == 0) {
     pipeline {
       agent any
